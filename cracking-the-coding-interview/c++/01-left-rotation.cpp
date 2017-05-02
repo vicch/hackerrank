@@ -11,7 +11,8 @@
 // Actual left rotation k = k % n. if k == 0, return as if. Otherwise, create a
 // new array in 2 steps: first the later part of original array, then the rest.
 
-vector<int> array_left_rotation(vector<int> a, int n, int k) {
+vector<int> array_left_rotation(vector<int> a, int n, int k)
+{
     k %= n;
     
     if (k == 0)
