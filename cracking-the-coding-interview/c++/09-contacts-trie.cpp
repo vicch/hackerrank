@@ -12,6 +12,10 @@
 //        find hak
 // Output: 2
 //         0
+// 
+// Solution:
+// Use a trie to store the names. Each node stores the count of all names under
+// this node (root node stores the total count of all names).
 
 #include <iostream>
 
