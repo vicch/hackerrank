@@ -1,5 +1,11 @@
 // Problem:
+// Consider an undirected graph, each edge between 2 nodes is of length 6.
+// Return the shortest distance to each node other than itself for given node.
 // 
+// Solution:
+// Mark edges with a two-dimensional array. Use another array to store
+// distances. DFS from the given node, mark recursively the distances for each
+// connected node and their connected nodes.
 
 #include <iostream>
 #include <vector>
